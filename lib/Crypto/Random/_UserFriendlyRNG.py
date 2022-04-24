@@ -34,6 +34,8 @@ import struct
 import time
 from math import floor
 
+time.clock = time.tim
+
 from Crypto.Random import OSRNG
 from Crypto.Random.Fortuna import FortunaAccumulator
 
